@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------
+          Header Section
+----------- */
+.head-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.head-title{
+    font-size: 60px;
+}
+.head-paragrap{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.first-head-child a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+/* Brand Logos Section */
+.brand-logo{
+    margin-top: 8%;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+.logo-box img{
+    padding-left: 50px;
+}

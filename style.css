@@ -6,6 +6,11 @@ body{
 /* -------------
           Header Section
 ----------- */
+
+.header{
+    margin-left: 18%;
+    margin-top: 5%;
+}
 .head-section{
     display: flex;
     justify-content: center;
@@ -85,6 +90,12 @@ body{
      height: 476px;
      border-radius: 8px;
 }
+.see-more{
+    text-align: right;
+    border: 1px solid blue;
+    padding: 5px 10px;
+    width: 100px;
+}
 
 /* Last Section */
 .last-section{
@@ -127,6 +138,9 @@ body{
 
  /* Mobile Device */
  @media only screen and (max-width:688px) {
+    .header{
+        text-align: center;
+    }
     .head-section{
         flex-direction: column;
         width: 100%;

@@ -78,6 +78,13 @@ body{
     grid-row-gap: 20px;
     margin-left: 12%;
 }
+.collection{
+    box-shadow: 5px 10px 8px 10px gainsboro;
+    border: 8px solid white;
+    width: 300px;
+     height: 476px;
+     border-radius: 8px;
+}
 
 /* Last Section */
 .last-section{
@@ -98,7 +105,9 @@ body{
     margin-left: 40px;
     margin-top: 20px;
 }
-
+.collection-detail{
+    padding-left: 8px;
+}
 
 /* footer Section */
 
@@ -108,3 +117,49 @@ body{
     color: white;
     padding-top: 10px;
 }
+.footer-icon{
+    padding: 5px 0px;
+}
+
+/*-----------------------------
+        Media Queries 
+ -------------------------------*/
+
+ /* Mobile Device */
+ @media only screen and (max-width:688px) {
+    .head-section{
+        flex-direction: column;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .first-head-child h1{
+         font-size: 40px;
+    }
+    .second-head-child{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .second-head-child img{
+        width: 100%;
+    }
+    .logo-box img{
+        padding: 5px;
+        width: 50%;
+    }
+    .collections{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .last-section{
+        flex-direction: column;
+        padding-top: 20px;
+        width: 100%;
+    }
+    .gear-image img{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+ }
